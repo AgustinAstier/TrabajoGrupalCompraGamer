@@ -589,7 +589,7 @@ const productos = [
     },
     {
         "Nombre":"Smart TV LG 50 Ultra HD AI ThinQ 50UR8750PSA",
-        "Imagen":"./assets/img-productos/basededatos/tele2.jpg",
+        "Imagen":"https://i.postimg.cc/GhgYS4Cz/tele1.jpg",
         "Precio":"$ 629.000",
         "Categoria":"Televisores"
     },
