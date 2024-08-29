@@ -122,7 +122,7 @@ subContentButtons.forEach((button) => {
       case "- Discos Solidos":
         mostrarSSD();
         break;
-      case "- Targetas de Memoria Micro SD":
+      case "- Tarjetas de Memoria Micro SD":
         mostrarMSD();
         break;
       case "- Coolers Fan":
@@ -160,6 +160,9 @@ subContentButtons.forEach((button) => {
         break;
       case "- Mousepads":
         mostrarMousepad();
+        break;
+      case "- Monitores y pantallas":
+        mostrarMon();
         break;
       case "- Parlantes":
         mostrarParlantes();
@@ -349,12 +352,12 @@ function mostrarAuri() {
 
 function mostrarTeclado() {
   mostrarProductosPorCategoria("Teclado");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/teclados.jpg", "TECLADOS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Teclados-2.jpg", "TECLADOS");
 }
 
 function mostrarMouse() {
   mostrarProductosPorCategoria("Mouse");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/mouse.jpg", "MOUSES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Mouses-2.jpg", "MOUSES");
 }
 
 function mostrarWebcam() {
@@ -364,7 +367,7 @@ function mostrarWebcam() {
 
 function mostrarJoystic() {
   mostrarProductosPorCategoria("Joystick");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/joystick.jpg", "JOYSTICKS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "JOYSTICKS");
 }
 
 function mostrarMousepad() {
@@ -374,52 +377,52 @@ function mostrarMousepad() {
 
 function mostrarParlantes() {
   mostrarProductosPorCategoria("Parlantes");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/parlantes.jpg", "PARLANTES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "PARLANTES");
 }
 
 function mostrarCombo() {
   mostrarProductosPorCategoria("Combo");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/combo.jpg", "COMBOS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "COMBOS");
 }
 
 function mostrarMicro() {
   mostrarProductosPorCategoria("Microfono");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/microfono.jpg", "MICROFONOS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "MICROFONOS");
 }
 
 function mostrarSillaG() {
   mostrarProductosPorCategoria("SillaG");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/silla_gamer.jpg", "SILLAS GAMER");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos", "SILLAS GAMER");
 }
 
 function mostrarRobot() {
   mostrarProductosPorCategoria("Robot");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/robots.jpg", "ROBOT");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "ROBOT");
 }
 
 function mostrarPlacaRI() {
   mostrarProductosPorCategoria("PlacaRI");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/placa_red.jpg", "PLACAS DE RED INALAMBRICAS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "PLACAS DE RED INALAMBRICAS");
 }
 
 function mostrarRouter() {
   mostrarProductosPorCategoria("Router");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/router.jpg", "ROUTERS WIFI");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "ROUTERS WIFI");
 }
 
 function mostrarEsta() {
   mostrarProductosPorCategoria("Estabilizador");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/estabilizador.jpg", "ESTABILIZADORES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/estabilizadores.jpg", "ESTABILIZADORES");
 }
 
 function mostrarUPS() {
   mostrarProductosPorCategoria("UPS");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/ups.jpg", "UPS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "UPS");
 }
 
 function mostrarCables() {
   mostrarProductosPorCategoria("Modding");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/cables.jpg", "CABLES Y ADAPTADORES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/cables y otros.jpg", "CABLES Y ADAPTADORES");
 }
 
 function mostrarCelular() {
@@ -429,22 +432,22 @@ function mostrarCelular() {
 
 function mostrarFunda() {
   mostrarProductosPorCategoria("Funda");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/accesorios_celular.jpg", "ACCESORIOS CELULARES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/celulares.jpg", "ACCESORIOS CELULARES");
 }
 
 function mostrarImpresora() {
   mostrarProductosPorCategoria("Impresora");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/impresora.jpg", "IMPRESORAS");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "IMPRESORAS");
 }
 
 function mostrarInsumos() {
   mostrarProductosPorCategoria("Insumos");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/insumos.jpg", "INSUMOS ORIGINALES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "INSUMOS ORIGINALES");
 }
 
 function mostrarTelevisor() {
   mostrarProductosPorCategoria("Televisores");
-  cambiarContenido("imagenArriba", "./assets/Img-Productos/televisor.jpg", "TELEVISORES");
+  cambiarContenido("imagenArriba", "./assets/Img-Productos/Destacados_Productos.jpg", "TELEVISORES");
 }
 
 function mostrarTodosLosProductos() {
