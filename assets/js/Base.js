@@ -499,7 +499,7 @@ const productos = [
     },
     {
         "Nombre":"Estabilizador Desktop TCA-2000N LYONN AVR",
-        "Imagen":"./assets/img-productos/basededatos/esta2.jpg",
+        "Imagen":"https://i.postimg.cc/8CB2TQwK/esta1.jpg",
         "Precio":"$ 49.990",
         "Categoria":"Estabilizador"
     },
