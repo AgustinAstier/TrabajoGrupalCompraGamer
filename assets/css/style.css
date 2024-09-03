@@ -1222,3 +1222,27 @@ footer {
         left: 240px;
     }
 }
+@media (max-width: 700px) {
+    header {
+        height: 300px;
+    }
+    .logo-fix {
+        margin-top: -45px;
+        margin-left: 40px;
+    }
+    .form-floating-custom-container{
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-left: -280px;
+    }
+    .CajaInicioCarrito{
+        margin-top: 95px;
+        margin-right: 120px;
+    }
+    .CertificadoMedia{
+        margin-right: 30px;
+    }
+    .Data-Fiscal{
+        margin-left: 20px;
+    }
+}
